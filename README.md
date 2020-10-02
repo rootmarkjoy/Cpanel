@@ -1,4 +1,4 @@
-# cPanel-Certification
+# cPanel
 cPanel &amp; WHM Administrator (CWA) - Core Curriculum  &amp; cPanel &amp; WHM Systems Administrator I (CWSA-1) - Core Curriculum
 
 Correct Answer of cpanel certification:-
