@@ -447,3 +447,46 @@ WHM Home » Server Contacts » Edit System Mail Preferences
 
 Which of the following methods best indicate the recommended approach for backing up, restoring or resetting the system's Exim configuration?
 Use the corresponding functions found within the Exim Configuration Manager interface, in WHM.
+
+When is it recommended to make changes to the hostname of a linked node in the Link Server Nodes interface?
+Only to ensure it matches the current child node's hostname.
+
+A child node can use what version of cPanel compared to the parent node?
+The child node can use the same or newer version of cPanel that the parent node uses.
+
+Which of the following services are disabled by default (include any optional services)?
+ftpd
+httpd
+proftpd
+pureftp
+mysql
+postgresql
+spamd
+
+If a parent node is on v96, which of the following versions (select all that apply) can the child node be on?
+v96
+v98
+
+Which of the following does not apply to Mail Node servers?
+System and user configurations propagate from the child to the parent node.
+
+When should you use the Managing Distribute Accounts feature within Link Server Nodes?
+Only in an emergency situation, such as if the child node is permanently down.
+
+What is the recommended method of dedistributing an account?
+Modify Account
+
+Select all server roles that are available for Mail Node (including optional roles):
+Send Mail
+Local Mail
+PostgreSQL
+Receive Mail
+DNS
+Spam Filter
+Webmail
+Relay Mail
+Calendars and Contacts
+MySQL/MariaDB
+
+What happens if the IMAP/POP3/SMTP traffic does not automatically route to the child node?
+The parent server creates proxy IMAP and POP3 connections to the child node, and reroute SMTP mail delivery to the child node.
