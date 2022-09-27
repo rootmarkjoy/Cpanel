@@ -424,26 +424,26 @@ All mail from a specific user is neither delivered to the inbox nor bounced.
 When you check the WHM Home » Email » Mail Delivery Reports interface, you see a green checkmark icon next to the message. Which of the following options best describes what this indicates?
 That the message was delivered successfully to a folder other than the inbox.
 
-# Given the following options, which describe an actual reason that the system may place a message into the Exim queue?
+Given the following options, which describe an actual reason that the system may place a message into the Exim queue?
 There are DNS issues preventing Exim from finding the remote mail server.
 
-# Given the following options, which best describes something about an email address that can be determined by using the WHM Home » Email » Mail Troubleshooter interface, found in WHM?
+Given the following options, which best describes something about an email address that can be determined by using the WHM Home » Email » Mail Troubleshooter interface, found in WHM?
 It will indicate whether the destination address forwards mail to a remote server.
 
-# You can use the Exim Configuration Manager - Basic Editor to configure Exim to deliver mail without scanning messages based on which of the following criteria?
+You can use the Exim Configuration Manager - Basic Editor to configure Exim to deliver mail without scanning messages based on which of the following criteria?
 When the message is over a certain size.
 
-# Given the following options, which of these accurately describe the behavior of the Mail Troubleshooter interface, found in WHM?
+Given the following options, which of these accurately describe the behavior of the Mail Troubleshooter interface, found in WHM?
 It can report the remote or local server that Exim uses to hand off messages for a specific email address.
 
-# Which of the following options found in the Exim Configuration Manager - Basic Editor interface in WHM can best be described as enabling the checking of DNS resolution to see if the sender's domain exists?
+Which of the following options found in the Exim Configuration Manager - Basic Editor interface in WHM can best be described as enabling the checking of DNS resolution to see if the sender's domain exists?
 Sender Verification
 
-# Which of the following tools may help you to resolve issues indicated by the time moved backwards warning?
+Which of the following tools may help you to resolve issues indicated by the time moved backwards warning?
 The "ntp" tool.
 
-# In which WHM interface can you configure the forwarders for the root, cpanel, and nobody mail accounts?
+In which WHM interface can you configure the forwarders for the root, cpanel, and nobody mail accounts?
 WHM Home » Server Contacts » Edit System Mail Preferences
 
-# Which of the following methods best indicate the recommended approach for backing up, restoring or resetting the system's Exim configuration?
+Which of the following methods best indicate the recommended approach for backing up, restoring or resetting the system's Exim configuration?
 Use the corresponding functions found within the Exim Configuration Manager interface, in WHM.
