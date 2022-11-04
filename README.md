@@ -447,3 +447,15 @@ WHM Home » Server Contacts » Edit System Mail Preferences
 
 Which of the following methods best indicate the recommended approach for backing up, restoring or resetting the system's Exim configuration?
 Use the corresponding functions found within the Exim Configuration Manager interface, in WHM.
+
+Which of the following options best describes one of the most notable behaviors that separates the DSO handler from other PHP handlers available in a cPanel & WHM environment?
+DSO does not create new "php" processes to handle requests, but instead works internally with Apache, spawning from the parent httpd process.
+
+In a cPanel & WHM environment, which of the following options accurately describes what the system default PHP version setting defined in WHM's MultiPHP Manager interface represents? 
+The version that is used if a domain does not already have a specific version selected for it.
+
+Given the following options, select the components or component combinations that would provide standard per-user process ownership for handling PHP content.
+suPHP (mod_suphp) OR Ruid2 (mod_ruid2) OR PHP-FPM
+
+When operating in a cPanel & WHM environment, which of the following files are used by Apache to define the PHP configuration?
+/etc/apache2/conf.d/php.conf
