@@ -4,42 +4,42 @@ cPanel &amp; WHM Administrator (CWA) - Core Curriculum  &amp; cPanel &amp; WHM S
 Correct Answer of cpanel certification:-
 ----------------------------------------
 - Within which of the following WHM interfaces would you be able to add SPF and DKIM records to an account? <br>
---- WHM Home >> Account Functions >> Modify Account
+> WHM Home >> Account Functions >> Modify Account
 
 - Diego is a web designer who operates his own cPanel & WHM server. He wants to create a test subdomain for one of his clients and upload some web content to it so that he can share a "beta" (non-production) version of the site to his client. <br>
 Which of the following interfaces should he start with, in order to accomplish this? <br>
-cPanel » Domains » Subdomains
+--- cPanel » Domains » Subdomains
 
 - By default, cPanel creates SPF records in which of the following modes? <br>
-Testing mode (non-production)
+--- Testing mode (non-production)
 
 - To add a PTR record that points the IP address 192.168.0.4 to mail.example.com, which zone would you modify? <br>
-0.168.192.in-addr.arpa
+--- 0.168.192.in-addr.arpa
 
 - Which of the following options indicates what the abbreviation TTL stands for, in the context of DNS? <br>
-Time To Live; indicating how long a resource record should be cached.
+--- Time To Live; indicating how long a resource record should be cached.
 
 - Within which of the following WHM interfaces can you globally enable DKIM and SPF for all accounts? <br>
-DNS Functions >> Enable DKIM/SPF Globally
+--- DNS Functions >> Enable DKIM/SPF Globally
 
 - Nameserver address record setup in modern installations of cPanel & WHM, both within the Basic WHM Setup and Edit Reseller Nameservers and Privileges interfaces, provide support for certain DNS records associated which of the following types of hostnames? <br>
-Hostnames that resolve to AAAA records.
+--- Hostnames that resolve to AAAA records.
 
 - Which of the following options best describes the term recursive, in the context of DNS? <br>
-A recursive nameserver can resolve non-local domains.
+--- A recursive nameserver can resolve non-local domains.
 
 - Within which of the following WHM interfaces would you enter the default nameservers for accounts that a reseller creates? <br>
-WHM Home >> Resellers >> Edit Reseller Nameservers and Privileges
+--- WHM Home >> Resellers >> Edit Reseller Nameservers and Privileges
 
 - Which of the following statements best describes the term resolver? <br>
-A nameserver that can resolve non-local domains.
+--- A nameserver that can resolve non-local domains.
 
 - By default, cPanel creates SPF records in which of the following modes? <br>
-Testing mode (non-production)
+--- Testing mode (non-production)
 
 - Diego is a web designer who operates his own cPanel & WHM server. He wants to create a test subdomain for one of his clients and upload some web content to it so that he can share a "beta" (non-production) version of the site to his client.
 Which of the following interfaces should he start with, in order to accomplish this? <br>
-cPanel » Domains » Subdomains
+--- cPanel » Domains » Subdomains
 
 - Of the following nameserver software options available in a cPanel & WHM environment, which is described as having the following major strengths? <br>
 Very high performance.
