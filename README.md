@@ -4,7 +4,7 @@ cPanel &amp; WHM Administrator (CWA) - Core Curriculum  &amp; cPanel &amp; WHM S
 Correct Answer of cpanel certification:-
 ----------------------------------------
 - Within which of the following WHM interfaces would you be able to add SPF and DKIM records to an account? <br>
--> WHM Home >> Account Functions >> Modify Account
+=> WHM Home >> Account Functions >> Modify Account
 
 - Diego is a web designer who operates his own cPanel & WHM server. He wants to create a test subdomain for one of his clients and upload some web content to it so that he can share a "beta" (non-production) version of the site to his client. <br>
 Which of the following interfaces should he start with, in order to accomplish this? <br>
