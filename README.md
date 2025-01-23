@@ -6,444 +6,443 @@ Correct Answer of cpanel certification:-
 - Within which of the following WHM interfaces would you be able to add SPF and DKIM records to an account? <br>
 WHM Home >> Account Functions >> Modify Account
 
-Diego is a web designer who operates his own cPanel & WHM server. He wants to create a test subdomain for one of his clients and upload some web content to it so that he can share a "beta" (non-production) version of the site to his client.
+- Diego is a web designer who operates his own cPanel & WHM server. He wants to create a test subdomain for one of his clients and upload some web content to it so that he can share a "beta" (non-production) version of the site to his client.
 Which of the following interfaces should he start with, in order to accomplish this?
 cPanel » Domains » Subdomains
 
-By default, cPanel creates SPF records in which of the following modes?
+- By default, cPanel creates SPF records in which of the following modes?
 Testing mode (non-production)
 
-To add a PTR record that points the IP address 192.168.0.4 to mail.example.com, which zone would you modify?
+- To add a PTR record that points the IP address 192.168.0.4 to mail.example.com, which zone would you modify?
 0.168.192.in-addr.arpa
 
-Which of the following options indicates what the abbreviation TTL stands for, in the context of DNS?
+- Which of the following options indicates what the abbreviation TTL stands for, in the context of DNS?
 Time To Live; indicating how long a resource record should be cached.
 
-Within which of the following WHM interfaces can you globally enable DKIM and SPF for all accounts?
+- Within which of the following WHM interfaces can you globally enable DKIM and SPF for all accounts?
 DNS Functions >> Enable DKIM/SPF Globally
 
-Nameserver address record setup in modern installations of cPanel & WHM, both within the Basic WHM Setup and Edit Reseller Nameservers and Privileges interfaces, provide support for certain DNS records associated which of the following types of hostnames?
+- Nameserver address record setup in modern installations of cPanel & WHM, both within the Basic WHM Setup and Edit Reseller Nameservers and Privileges interfaces, provide support for certain DNS records associated which of the following types of hostnames?
 Hostnames that resolve to AAAA records.
 
-Which of the following options best describes the term recursive, in the context of DNS?
+- Which of the following options best describes the term recursive, in the context of DNS?
 A recursive nameserver can resolve non-local domains.
 
-Within which of the following WHM interfaces would you enter the default nameservers for accounts that a reseller creates?
+- Within which of the following WHM interfaces would you enter the default nameservers for accounts that a reseller creates?
 WHM Home >> Resellers >> Edit Reseller Nameservers and Privileges
 
-Which of the following statements best describes the term resolver?
+- Which of the following statements best describes the term resolver?
 A nameserver that can resolve non-local domains.
 
-By default, cPanel creates SPF records in which of the following modes?
+- By default, cPanel creates SPF records in which of the following modes?
 Testing mode (non-production)
 
-Diego is a web designer who operates his own cPanel & WHM server. He wants to create a test subdomain for one of his clients and upload some web content to it so that he can share a "beta" (non-production) version of the site to his client.
+- Diego is a web designer who operates his own cPanel & WHM server. He wants to create a test subdomain for one of his clients and upload some web content to it so that he can share a "beta" (non-production) version of the site to his client.
 Which of the following interfaces should he start with, in order to accomplish this?
 cPanel » Domains » Subdomains
 
-Of the following nameserver software options available in a cPanel & WHM environment, which is described as having the following major strengths?
-
+- Of the following nameserver software options available in a cPanel & WHM environment, which is described as having the following major strengths?
 Very high performance.
 Low memory footprint.
 PowerDNS
 
-Within which of the following WHM interfaces would you be able to add SPF and DKIM records to an account?
+- Within which of the following WHM interfaces would you be able to add SPF and DKIM records to an account?
 WHM Home >> Account Functions >> Modify Account
 
-Given the following options, which indicates the ideal source from which you should obtain your server's resolver IP addresses?
+- Given the following options, which indicates the ideal source from which you should obtain your server's resolver IP addresses?
 Your hosting provider or data center.
 
-cPanel offers a DNSOnly installation specifically for the purpose of using with a standard cPanel & WHM environment in a DNS cluster configuration. Which of the following is the standard license cost associated with DNSOnly?
+- cPanel offers a DNSOnly installation specifically for the purpose of using with a standard cPanel & WHM environment in a DNS cluster configuration. Which of the following is the standard license cost associated with DNSOnly?
 Free.
 
-Which of the following DNS clustering synchronization types, found in the WHM interface, can be best described as the copying of all updated versions of local zone files to all servers in the cluster?
+- Which of the following DNS clustering synchronization types, found in the WHM interface, can be best described as the copying of all updated versions of local zone files to all servers in the cluster?
 Synchronize all zones to all servers.
 
-Which of the following statements best describes the term resolver?
+- Which of the following statements best describes the term resolver?
 A nameserver that can resolve non-local domains.
 
-Which of the following best describes one of the primary, intended purposes of a DNSOnly server?
+- Which of the following best describes one of the primary, intended purposes of a DNSOnly server?
 Providing a means of establishing DNS redundancy in a cluster configuration.
 
-Which of the following statements most accurately describes the term clustering, in the context of a server hosting environment?
+- Which of the following statements most accurately describes the term clustering, in the context of a server hosting environment?
 Two or more servers that all serve the same purpose configured in a distributed, connected environment.
 
-If you have one DNSONLY server and three full cPanel & WHM servers, which of the following is recommended as the optimal cluster configuration, given this scenario?
+- If you have one DNSONLY server and three full cPanel & WHM servers, which of the following is recommended as the optimal cluster configuration, given this scenario?
 The cPanel & WHM servers should be set to push to the DNS Only server, which should not send updates back to the cPanel & WHM Servers.
 
-After performing an installation of cPanel & WHM on a fresh environment, what is the initial, default state of DNS clustering?
+- After performing an installation of cPanel & WHM on a fresh environment, what is the initial, default state of DNS clustering?
 DNS clustering is initially disabled, and must be manually enabled.
 
-The system's administrator receives an email alert from WHM when which of the following conditions occur?
+- The system's administrator receives an email alert from WHM when which of the following conditions occur?
 The hostname does not point to the main IP address on the server.
 
-Which of the following query returns the IP addresses of the nameservers for the IP address 10.9.8.7?
+- Which of the following query returns the IP addresses of the nameservers for the IP address 10.9.8.7?
 dig +nssearch 8.9.10.in-addr.arpa
 
-Which of the following options most accurately describes the interface or interfaces that you would utilize to create reverse DNS zones from within WHM?
+- Which of the following options most accurately describes the interface or interfaces that you would utilize to create reverse DNS zones from within WHM?
 WHM Home » DNS Functions » Add a DNS Zone, and then WHM Home » DNS Functions » Edit DNS Zone.
 
-Which of the following options accurately indicate a task that can be performed from within the WHM interface?
+- Which of the following options accurately indicate a task that can be performed from within the WHM interface?
 Change an MX record.
 
-Given the selection of nameserver software options available in a cPanel & WHM interface, which of the choices below have a major weakness that can be described as having a considerably extended initial zone loading time, if the server contains a very large quantity of zones?
+- Given the selection of nameserver software options available in a cPanel & WHM interface, which of the choices below have a major weakness that can be described as having a considerably extended initial zone loading time, if the server contains a very large quantity of zones?
 BIND/named
 
-Which of the following MySQL/MariaDB-related terms can be accurately described as a data structure that improves the speed of operations in a table?
+- Which of the following MySQL/MariaDB-related terms can be accurately described as a data structure that improves the speed of operations in a table?
 Index
 
-Which of the following types of tables can you repair using the Repair a MySQL Database interface, found in WHM?
+- Which of the following types of tables can you repair using the Repair a MySQL Database interface, found in WHM?
 MyISAM
 
-Given the following options, which accurately describe a feature specific to the MyISAM storage engine?
+- Given the following options, which accurately describe a feature specific to the MyISAM storage engine?
 MyISAM has repair capabilities that allow you to perform the REPAIR query, either directly or from the WHM interface, on tables that may have corrupted data or indexes.
 
-By default, what kind of remote MySQL access is allowed, given the correct user and password?
+- By default, what kind of remote MySQL access is allowed, given the correct user and password?
 No remote access is provided by default.
 
-Which of the following best describes the role of the MySQL root password in a cPanel & WHM environment?
+- Which of the following best describes the role of the MySQL root password in a cPanel & WHM environment?
 A password that is primarily handled via automated means by cPanel & WHM back-end services, and can be reset as needed.
 
-Which of the following definitions best describes InnoDB's data dictionary component?
+- Which of the following definitions best describes InnoDB's data dictionary component?
 A part of the InnoDB storage engine that uses metadata to map structural information to the file it’s stored in.
 
-Which of the following terms can be described as the way that permissions are handled inside a MySQL or MariaDB database?
+- Which of the following terms can be described as the way that permissions are handled inside a MySQL or MariaDB database?
 Grants
 
-In modern versions of cPanel & WHM, what benefits can database prefixing, enabled from the SQL tab of the Tweak Settings interface in WHM, provide?
+- In modern versions of cPanel & WHM, what benefits can database prefixing, enabled from the SQL tab of the Tweak Settings interface in WHM, provide?
 Primarily cosmetic; helps server administrators identify database ownership, as well as providing auto-grouping in the phpMyAdmin interface.
 
-Which of the following terms can be described as the way that permissions are handled inside a MySQL or MariaDB database?
+- Which of the following terms can be described as the way that permissions are handled inside a MySQL or MariaDB database?
 Grants
 
-The WHM Home >> SQL Services >> Manage Databases interface allows you to do which of the following operations?
+- The WHM Home >> SQL Services >> Manage Databases interface allows you to do which of the following operations?
 Automated renaming of a MySQL/MariaDB database.
 
-Which of the following details about the remote server would you need to know, if you wanted to set up a new remote MySQL profile in WHM?
+- Which of the following details about the remote server would you need to know, if you wanted to set up a new remote MySQL profile in WHM?
 Remote SSH port
 
-Which of the following types of tables can you repair using the Repair a MySQL Database interface, found in WHM?
+- Which of the following types of tables can you repair using the Repair a MySQL Database interface, found in WHM?
 MyISAM
 
-WHM contains an interface feature that allows you to attempt an automatic repair on which of the following types of tables?
+- WHM contains an interface feature that allows you to attempt an automatic repair on which of the following types of tables?
 MyISAM
 
-The WHM Home >> SQL Services >> Additional Access Hosts interface creates server-level grants that are similar to the grants that can be created in which of the following cPanel account-level Interfaces?
+- The WHM Home >> SQL Services >> Additional Access Hosts interface creates server-level grants that are similar to the grants that can be created in which of the following cPanel account-level Interfaces?
 cPanel Home >> Databases >> Remote MySQL
 
-Which of the following describes a term that indicates a trait of the object described by the table, or can be otherwise referenced as a table column?
+- Which of the following describes a term that indicates a trait of the object described by the table, or can be otherwise referenced as a table column?
 Field
 
-Which of the following options describes the best way to import a SQL dump into a PostgreSQL databases via the WHM interface?
+- Which of the following options describes the best way to import a SQL dump into a PostgreSQL databases via the WHM interface?
 There are no features in WHM that provide this capability; it must be performed from the command-line.
 
-Which of the following best describes the role of the MySQL root password in a cPanel & WHM environment?
+- Which of the following best describes the role of the MySQL root password in a cPanel & WHM environment?
 A password that is primarily handled via automated means by cPanel & WHM back-end services, and can be reset as needed.
 
-Which of the following WHM interfaces would you use to configure a cPanel & WHM server to utilize a remote MySQL® server environment to handle its database operations?
+- Which of the following WHM interfaces would you use to configure a cPanel & WHM server to utilize a remote MySQL® server environment to handle its database operations?
 Manage MySQL® Profiles
 
-As of cPanel & WHM 60, what is the minimum version of MySQL that can be running on a remote server, in order for it to be used in a Remote MySQL Profile?
+- As of cPanel & WHM 60, what is the minimum version of MySQL that can be running on a remote server, in order for it to be used in a Remote MySQL Profile?
 5.5
 
-MySQL Profiles can be used to set up what kind of relationship between servers?
+- MySQL Profiles can be used to set up what kind of relationship between servers?
 1-to-1 (1:1) only
 
-When using a cPanel & WHM environment, remote MySQL capabilities should be set up via the MySQL Profiles interface in WHM at which of the following stages of a server's operations?
+- When using a cPanel & WHM environment, remote MySQL capabilities should be set up via the MySQL Profiles interface in WHM at which of the following stages of a server's operations?
 After installation, but before beginning to create production accounts on the server.
 
-Given the following options, which of these indicate the correct amount of characters that a MySQL 4.1 password hash is composed of, before being updated to the current standard of 41 character-hashes?
+- Given the following options, which of these indicate the correct amount of characters that a MySQL 4.1 password hash is composed of, before being updated to the current standard of 41 character-hashes?
 16 characters.
 
-Given the following options, which accurately describe a feature specific to the MyISAM storage engine?
+- Given the following options, which accurately describe a feature specific to the MyISAM storage engine?
 MyISAM has repair capabilities that allow you to perform the REPAIR query, either directly or from the WHM interface, on tables that may have corrupted data or indexes.
 
-Which of the following MySQL/MariaDB-related terms can be accurately described as the language used to add, remove, and view data in a database?
+- Which of the following MySQL/MariaDB-related terms can be accurately described as the language used to add, remove, and view data in a database?
 SQL
 
-Which of the following describes a term that indicates a trait of the object described by the table, or can be otherwise referenced as a table column?
+- Which of the following describes a term that indicates a trait of the object described by the table, or can be otherwise referenced as a table column?
 Field
 
-Which of the following is one of the most common causes of MySQL upgrade failures?
+- Which of the following is one of the most common causes of MySQL upgrade failures?
 Aborting the upgrade, intentionally or otherwise, part-way through the procedure.
 
-In modern versions of cPanel & WHM, what benefits can database prefixing, enabled from the SQL tab of the Tweak Settings interface in WHM, provide?
+- In modern versions of cPanel & WHM, what benefits can database prefixing, enabled from the SQL tab of the Tweak Settings interface in WHM, provide?
 Primarily cosmetic; helps server administrators identify database ownership, as well as providing auto-grouping in the phpMyAdmin interface.
 
-When using a cPanel & WHM environment, remote MySQL capabilities should be set up via the MySQL Profiles interface in WHM at which of the following stages of a server's operations?
+- When using a cPanel & WHM environment, remote MySQL capabilities should be set up via the MySQL Profiles interface in WHM at which of the following stages of a server's operations?
 After installation, but before beginning to create production accounts on the server.
 
-Which of the following options describes the best way to import a SQL dump into a PostgreSQL databases via the WHM interface?
+- Which of the following options describes the best way to import a SQL dump into a PostgreSQL databases via the WHM interface?
 There are no features in WHM that provide this capability; it must be performed from the command-line.
 
-Which of the following WHM interfaces would you use to configure a cPanel & WHM server to utilize a remote MySQL® server environment to handle its database operations?
+- Which of the following WHM interfaces would you use to configure a cPanel & WHM server to utilize a remote MySQL® server environment to handle its database operations?
 Manage MySQL® Profiles
 
-Which of the following MySQL storage engines is the native default (native to MySQL - not necessarily in cPanel & WHM) engine used by MySQL versions 5.5.5 and above?
+- Which of the following MySQL storage engines is the native default (native to MySQL - not necessarily in cPanel & WHM) engine used by MySQL versions 5.5.5 and above?
 InnoDB
 
-Which of the following types of tables can you repair using the Repair a MySQL Database interface, found in WHM?
+- Which of the following types of tables can you repair using the Repair a MySQL Database interface, found in WHM?
 MyISAM
 
-Which of the following is one of the most common causes of MySQL upgrade failures?
+- Which of the following is one of the most common causes of MySQL upgrade failures?
 The my.cnf file contains a number of non-default customizations that have not been verified prior to upgrading.
 
-Using the Manage MySQL Profiles interface in WHM, what is the recommended maximum number of cPanel & WHM servers should be connected to each configured remote MySQL server?
+- Using the Manage MySQL Profiles interface in WHM, what is the recommended maximum number of cPanel & WHM servers should be connected to each configured remote MySQL server?
 1
 
-The WHM Home >> SQL Services >> Manage Database Users interface in WHM can be used for which of the following purposes?
+- The WHM Home >> SQL Services >> Manage Database Users interface in WHM can be used for which of the following purposes?
 Rename existing database users.
 
-Which of the following actions can you perform directly from within the WHM interface, without using phpMyAdmin?
+- Which of the following actions can you perform directly from within the WHM interface, without using phpMyAdmin?
 Change a database user's password.
 
-Which of the following database-related term can be defined as the marking of a table or row so that only one process can access it a time?
+- Which of the following database-related term can be defined as the marking of a table or row so that only one process can access it a time?
 Locking
 
-Which of the following options accurately describe an action that can be performed from within WHM's EasyApache 4 interface?
+- Which of the following options accurately describe an action that can be performed from within WHM's EasyApache 4 interface?
 Change the MPM that is used in your Apache installation.
 
-When operating in a cPanel & WHM environment running EasyApache 4, within which of the following WHM interfaces can you adjust the server's default PHP version?
+- When operating in a cPanel & WHM environment running EasyApache 4, within which of the following WHM interfaces can you adjust the server's default PHP version?
 This can be adjusted from within WHM's MultiPHP Manager interface.
 
-Which of the following options best describes the method you would use to install the PHP-FPM software, within a cPanel & WHM environment?
+- Which of the following options best describes the method you would use to install the PHP-FPM software, within a cPanel & WHM environment?
 PHP-FPM appears under the PHP Extensions stage of the EasyApache 4 profile customization walkthrough.
 
-In modern installations of cPanel & WHM, EasyApache 4 will allow you to install which of the following versions of Apache?
+- In modern installations of cPanel & WHM, EasyApache 4 will allow you to install which of the following versions of Apache?
 Apache 2.4
 
-In modern installations of cPanel & WHM, how is the PHP version determined for newly created accounts, when System PHP-FPM status is set to ON?
+- In modern installations of cPanel & WHM, how is the PHP version determined for newly created accounts, when System PHP-FPM status is set to ON?
 It is set to the same value as the system default.
 
-Which of the following EasyApache 4 profile actions can you perform from WHM's EasyApache 4 interface, in modern installations of cPanel & WHM?
+- Which of the following EasyApache 4 profile actions can you perform from WHM's EasyApache 4 interface, in modern installations of cPanel & WHM?
 Upload a profile file from your file system or via a URL.
 
-Which of the following options best describes one of the most notable behaviors that separate the DSO handler from other PHP handlers available in a cPanel & WHM environment?
+- Which of the following options best describes one of the most notable behaviors that separate the DSO handler from other PHP handlers available in a cPanel & WHM environment?
 DSO does not create new "php" processes to handle requests, but instead works internally with Apache, spawning from the parent httpd process.
 
-In addition to increasing the speed of the build process, which of the following options describes another reason that EasyApache 4 provides an improvement over EasyApache 3?
+- In addition to increasing the speed of the build process, which of the following options describes another reason that EasyApache 4 provides an improvement over EasyApache 3?
 Reduced chances of critical Apache failures.
 
-Which of the following options describes the appropriate method needed to enable PHP-FPM from within the WHM interface?
+- Which of the following options describes the appropriate method needed to enable PHP-FPM from within the WHM interface?
 PHP-FPM is enabled via WHM's MultiPHP Manager interface.
 
-When operating in a cPanel & WHM environment running EasyApache 4, within which of the following WHM interfaces can you adjust the server's default PHP version?
+- When operating in a cPanel & WHM environment running EasyApache 4, within which of the following WHM interfaces can you adjust the server's default PHP version?
 This can be adjusted from within WHM's MultiPHP Manager interface.
 
-In modern installations of cPanel & WHM, when selecting DSO from the EasyApache 4 interface without mod_ruid2 or mpm_itk, what recommendation will be displayed to you automatically, directly from within the EasyApache 4 interface?
+- In modern installations of cPanel & WHM, when selecting DSO from the EasyApache 4 interface without mod_ruid2 or mpm_itk, what recommendation will be displayed to you automatically, directly from within the EasyApache 4 interface?
 PHP DSO runs as the nobody user by default. In a shared hosting environment, this is a security issue.
 
-Which of the following PHP handlers can only be used on one PHP version at a time?
+- Which of the following PHP handlers can only be used on one PHP version at a time?
 DSO
 
-Which of the following accurately indicates the user that processes created for the DSO handler are owned by?
+- Which of the following accurately indicates the user that processes created for the DSO handler are owned by?
 nobody user
 
-Which of the following options best describes the procedure needed to enable the BlueHost SymLink Protection Patch?
+- Which of the following options best describes the procedure needed to enable the BlueHost SymLink Protection Patch?
 Toggle the corresponding option found in WHM's Apache Configuration's Global Configuration interface.
 
-In a cPanel & WHM environment, which of the following options accurately describe what the system default PHP version setting defined in WHM's MultiPHP Manager interface represents?
+- In a cPanel & WHM environment, which of the following options accurately describe what the system default PHP version setting defined in WHM's MultiPHP Manager interface represents?
 The version that is used if a domain does not already have a specific version selected for it.
 
-When operating in a cPanel & WHM environment, which of the following files are used by the system to define the PHP configuration?
+- When operating in a cPanel & WHM environment, which of the following files are used by the system to define the PHP configuration?
 /etc/apache2/conf.d/php.conf
 
-You're operating in a PHP 5.6 environment and using DSO as your PHP handler. You've created a .user.ini file in your website's public_html folder, but are not seeing your changes reflected.
+- You're operating in a PHP 5.6 environment and using DSO as your PHP handler. You've created a .user.ini file in your website's public_html folder, but are not seeing your changes reflected.
 Of the following choices, which of these most accurately describes the issue that is occurring here?
 An .htaccess file stored in public_html should be used instead, containing the appropriate syntax for declaring PHP values.
 
-If a user wants to utilize the system default version of PHP, which of the following selections would they enable for their account?
+- If a user wants to utilize the system default version of PHP, which of the following selections would they enable for their account?
 inherit
 
-In a cPanel & WHM environment, which of the following options accurately describe what the system default PHP version setting defined in WHM's MultiPHP Manager interface represents?
+- In a cPanel & WHM environment, which of the following options accurately describe what the system default PHP version setting defined in WHM's MultiPHP Manager interface represents?
 The version that is used if a domain does not already have a specific version selected for it.
 
-When operating in a cPanel & WHM environment, which of the following files are used by the system to define the PHP configuration?
+- When operating in a cPanel & WHM environment, which of the following files are used by the system to define the PHP configuration?
 /etc/apache2/conf.d/php.conf
 
-Of the following options, which of these handlers operate in a non-persistent state, requiring the creation of new PHP processes each time something is executed?
+- Of the following options, which of these handlers operate in a non-persistent state, requiring the creation of new PHP processes each time something is executed?
 suPHP
 
-In modern installations of cPanel & WHM, when selecting DSO from the EasyApache 4 interface without mod_ruid2 or mpm_itk, what recommendation will be displayed to you automatically, directly from within the EasyApache 4 interface?
+- In modern installations of cPanel & WHM, when selecting DSO from the EasyApache 4 interface without mod_ruid2 or mpm_itk, what recommendation will be displayed to you automatically, directly from within the EasyApache 4 interface?
 PHP DSO runs as the nobody user by default. In a shared hosting environment, this is a security issue.
 
-In modern installations of cPanel & WHM, which of the following PHP configuration values are set automatically during the Initial Setup Assistant steps?
+- In modern installations of cPanel & WHM, which of the following PHP configuration values are set automatically during the Initial Setup Assistant steps?
 memory_limit
 
-Which type of user can select the version of PHP that can be used within a particular cPanel account, using the cPanel & WHM interfaces?
+- Which type of user can select the version of PHP that can be used within a particular cPanel account, using the cPanel & WHM interfaces?
 Both the cPanel account user and the WHM root user.
 
-Given the following options, select the components or component combinations that would provide standard per-user process ownership for handling PHP content.
+- Given the following options, select the components or component combinations that would provide standard per-user process ownership for handling PHP content.
 suPHP (mod_suphp) OR Ruid2 (mod_ruid2) OR PHP-FPM
 
-Which of the following Apache modules are core to Apache and can be disabled, but cannot be removed using the EasyApache 4 interface?
+- Which of the following Apache modules are core to Apache and can be disabled, but cannot be removed using the EasyApache 4 interface?
 mod_userdir
 
-Which of the following options is NOT a real Multi-Processing Module (MPM) available for installation within WHM's EasyApache 4 interface?
+- Which of the following options is NOT a real Multi-Processing Module (MPM) available for installation within WHM's EasyApache 4 interface?
 Postfork
 
-Which of the following options accurately describes an action that can be performed from within WHM's EasyApache 4 interface?
+- Which of the following options accurately describes an action that can be performed from within WHM's EasyApache 4 interface?
 Install new PHP extensions for use in your active Apache/PHP environment.
 
-Which of the following options accurately indicates the file syntax that can be seen within downloaded EasyApache 4 profiles?
+- Which of the following options accurately indicates the file syntax that can be seen within downloaded EasyApache 4 profiles?
 JSON
 
-As a first step in DNS resolution, what does a resolver query to determine the address of the TLD nameserver?
+- As a first step in DNS resolution, what does a resolver query to determine the address of the TLD nameserver?
 The root nameserver
 
-To ensure that the internet sees the changes you've made to a DNS zone file manually, what should be updated?
+- To ensure that the internet sees the changes you've made to a DNS zone file manually, what should be updated?
 The serial number
 
-To retrieve the IPv6 record of a domain, I would query for the domain's __________ record.
+- To retrieve the IPv6 record of a domain, I would query for the domain's __________ record.
 AAAA
 
-To force my local system to resolve a domain to a specific IP address, I would modify the __________ file.
+- To force my local system to resolve a domain to a specific IP address, I would modify the __________ file.
 /etc/hosts
 
-DNS zone files will only be found in /var/named when BIND/named is in use.
+- DNS zone files will only be found in /var/named when BIND/named is in use.
 False
 
-True/False: BIND/named's DNS zone files are stored in /etc/named.
+- True/False: BIND/named's DNS zone files are stored in /etc/named.
 False
 
-The rndc utility can be used to administer a BIND/named server either locally or remotely.
+- The rndc utility can be used to administer a BIND/named server either locally or remotely.
 True
 
-To reload NSD, I would execute the __________ script.
+- To reload NSD, I would execute the __________ script.
 rndc reload
 
-Which of the following would be the best way to restart the DNS server from the command-line?
+- Which of the following would be the best way to restart the DNS server from the command-line?
 /scripts/restartsrv_named
 
-Resetting a DNS zone using a zone template is one method that can be used to address a malformed DNS zone.
+- Resetting a DNS zone using a zone template is one method that can be used to address a malformed DNS zone.
 True
 
-Zone templates can be used to ensure that changes to zones are saved when the DNS server is restarted.
+- Zone templates can be used to ensure that changes to zones are saved when the DNS server is restarted.
 False
 
-Which of these looks like a BIND/named zone file name?
+- Which of these looks like a BIND/named zone file name?
 domain.net.db
 
-What does the Error logging severity imply, when referring to BIND/named logs?
+- What does the Error logging severity imply, when referring to BIND/named logs?
 A problem has been encountered during BIND/named operations.
 
-Which of these logging categories encompasses all categories that have not already been explicitly configured to use another specific channel?
+- Which of these logging categories encompasses all categories that have not already been explicitly configured to use another specific channel?
 default
 
-True/False: On a server that does not need to facilitate zone transfers, set "allow-recursion" to "none" in the named.conf file to disable them.
+- True/False: On a server that does not need to facilitate zone transfers, set "allow-recursion" to "none" in the named.conf file to disable them.
 False
 
-What does the acronym ACL represent?
+- What does the acronym ACL represent?
 Access Control List
 
-True/False: To define a range or subnet of IP addresses for the system to re-use within other areas of the named.conf, create a named ACL.
+- True/False: To define a range or subnet of IP addresses for the system to re-use within other areas of the named.conf, create a named ACL.
 True
 
-Which of the following command-line tools can be used to list running processes in a Linux environment?
+- Which of the following command-line tools can be used to list running processes in a Linux environment?
 ps
 
-When you see a "rndc reload: connection refused" error, which of the following commands should you run first?
+- When you see a "rndc reload: connection refused" error, which of the following commands should you run first?
 /scripts/fixrndc
 
-By default, which of these logging categories are routed into the default_log channel, in a BIND/named DNS server configuration?
+- By default, which of these logging categories are routed into the default_log channel, in a BIND/named DNS server configuration?
 general
 
-To force the local system to resolve a domain to a specific IP address, which of the following files would you modify to accomplish this?
+- To force the local system to resolve a domain to a specific IP address, which of the following files would you modify to accomplish this?
 /etc/hosts
 
-Which of the following is the first nameserver that the resolver queries to determine the address of the TLD nameserver?
+- Which of the following is the first nameserver that the resolver queries to determine the address of the TLD nameserver?
 The root nameserver.
 
-On a server that does not need to facilitate zone transfers, which of the following configuration variables found in the named.conf file should be set to none to disable them?
+- On a server that does not need to facilitate zone transfers, which of the following configuration variables found in the named.conf file should be set to none to disable them?
 allow-transfer
 
-Which of the following utilities included with BIND/named can be used to troubleshoot malformed zone files?
+- Which of the following utilities included with BIND/named can be used to troubleshoot malformed zone files?
 named-checkzone
 
-In a cPanel & WHM environment, you will find zone files stored in /var/named when using which of the following namesever software?
+- In a cPanel & WHM environment, you will find zone files stored in /var/named when using which of the following namesever software?
 All of these.
 
-Which of the following DNS-related command-line utilities would provide you with similar results to those given by the dig utility, and is used for essentially the same purposes?
+- Which of the following DNS-related command-line utilities would provide you with similar results to those given by the dig utility, and is used for essentially the same purposes?
 nslookup
 
-When a remote mail exchanger handles a domain's mail, which of the following files must include the domain?
+- When a remote mail exchanger handles a domain's mail, which of the following files must include the domain?
 /etc/remotedomains
 
-A banking website wants to prevent inappropriate certificate authorities from issuing certificates for their domain. Which of the following record types would best be used to assist in accomplishing this?
+- A banking website wants to prevent inappropriate certificate authorities from issuing certificates for their domain. Which of the following record types would best be used to assist in accomplishing this?
 CAA
 
-To ensure that the internet sees the changes that you make DNS zone file manually, which of the following components of a DNS zone should you update?
+- To ensure that the internet sees the changes that you make DNS zone file manually, which of the following components of a DNS zone should you update?
 The serial number.
 
-In a cPanel & WHM environment, DNS zone files can be found in which of the following folders?
+- In a cPanel & WHM environment, DNS zone files can be found in which of the following folders?
 /var/named
 
-What does the acronym TLD represent, as in for a "TLD nameserver"?
+- What does the acronym TLD represent, as in for a "TLD nameserver"?
 Top-level Domain
 
-If you create a customized DNS zone template from the command-line, which of the following would be a correctly-named custom template file name?
+- If you create a customized DNS zone template from the command-line, which of the following would be a correctly-named custom template file name?
 root_templatename
 
-To retrieve the IPv6 record of a domain, you would query for which of the following records in a domain?
+- To retrieve the IPv6 record of a domain, you would query for which of the following records in a domain?
 AAAA
 
-Which of the following options best describes the role of DNSSEC?
+- Which of the following options best describes the role of DNSSEC?
 Provides cryptographic authentication of DNS zones.
 
-Which of the following is the default path for the BIND/named configuration file?
+- Which of the following is the default path for the BIND/named configuration file?
 /etc/named.conf
 
-Which of the following nameserver applications does not load all of its DNS zones upon startup?
+- Which of the following nameserver applications does not load all of its DNS zones upon startup?
 MyDNS
 
-What does the Error logging severity imply, when referring to BIND/named logs?
+- What does the Error logging severity imply, when referring to BIND/named logs?
 A problem has been encountered during BIND/named operations that may allow further operations to continue.
 
-When operating within a cPanel & WHM server, which of the following indicates the best method to restart the DNS server from the command line?
+- When operating within a cPanel & WHM server, which of the following indicates the best method to restart the DNS server from the command line?
 /scripts/restartsrv_named
 
-Registrant information associated with domain names is maintained in an online database accessible with what service?
+- Registrant information associated with domain names is maintained in an online database accessible with what service?
 WHOIS
 
-By default in a cPanel & WHM environment, the system logs cluster-related messages into which of the following log files?
+- By default in a cPanel & WHM environment, the system logs cluster-related messages into which of the following log files?
 /usr/local/cpanel/logs/dnsadmin_log
 
-Which of the following is one method that you can use, within the WHM interface, to repair a malformed DNS zone using a zone template?
+- Which of the following is one method that you can use, within the WHM interface, to repair a malformed DNS zone using a zone template?
 Reset a DNS Zone
 
-In a BIND/named configuration, you can modify the level of detail that is provided to remote servers regarding which of the following types of information?
+- In a BIND/named configuration, you can modify the level of detail that is provided to remote servers regarding which of the following types of information?
 Host application details indicating version and server data regarding your BIND/named installation.
 
-Which of the following options best indicate the typical delivery failure rate that a spamming email account will report, if examining from the Mail Delivery Reports interface found in WHM?
+- Which of the following options best indicate the typical delivery failure rate that a spamming email account will report, if examining from the Mail Delivery Reports interface found in WHM?
 The account will have a high failure rate.
 
-If you suspect that mail has not been delivered because the user is over their quota, in which of the following WHM interfaces might you look to confirm why the message was not delivered?
+- If you suspect that mail has not been delivered because the user is over their quota, in which of the following WHM interfaces might you look to confirm why the message was not delivered?
 WHM Home » Email » Mail Delivery Reports
 
-All mail from a specific user is neither delivered to the inbox nor bounced.
+- All mail from a specific user is neither delivered to the inbox nor bounced.
 When you check the WHM Home » Email » Mail Delivery Reports interface, you see a green checkmark icon next to the message. Which of the following options best describes what this indicates?
 That the message was delivered successfully to a folder other than the inbox.
 
-Given the following options, which describe an actual reason that the system may place a message into the Exim queue?
+- Given the following options, which describe an actual reason that the system may place a message into the Exim queue?
 There are DNS issues preventing Exim from finding the remote mail server.
 
-Given the following options, which best describes something about an email address that can be determined by using the WHM Home » Email » Mail Troubleshooter interface, found in WHM?
+- Given the following options, which best describes something about an email address that can be determined by using the WHM Home » Email » Mail Troubleshooter interface, found in WHM?
 It will indicate whether the destination address forwards mail to a remote server.
 
-You can use the Exim Configuration Manager - Basic Editor to configure Exim to deliver mail without scanning messages based on which of the following criteria?
+- You can use the Exim Configuration Manager - Basic Editor to configure Exim to deliver mail without scanning messages based on which of the following criteria?
 When the message is over a certain size.
 
-Given the following options, which of these accurately describe the behavior of the Mail Troubleshooter interface, found in WHM?
+- Given the following options, which of these accurately describe the behavior of the Mail Troubleshooter interface, found in WHM?
 It can report the remote or local server that Exim uses to hand off messages for a specific email address.
 
-Which of the following options found in the Exim Configuration Manager - Basic Editor interface in WHM can best be described as enabling the checking of DNS resolution to see if the sender's domain exists?
+- Which of the following options found in the Exim Configuration Manager - Basic Editor interface in WHM can best be described as enabling the checking of DNS resolution to see if the sender's domain exists?
 Sender Verification
 
-Which of the following tools may help you to resolve issues indicated by the time moved backwards warning?
+- Which of the following tools may help you to resolve issues indicated by the time moved backwards warning?
 The "ntp" tool.
 
-In which WHM interface can you configure the forwarders for the root, cpanel, and nobody mail accounts?
+- In which WHM interface can you configure the forwarders for the root, cpanel, and nobody mail accounts?
 WHM Home » Server Contacts » Edit System Mail Preferences
 
-Which of the following methods best indicate the recommended approach for backing up, restoring or resetting the system's Exim configuration?
+- Which of the following methods best indicate the recommended approach for backing up, restoring or resetting the system's Exim configuration?
 Use the corresponding functions found within the Exim Configuration Manager interface, in WHM.
